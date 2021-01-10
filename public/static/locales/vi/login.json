@@ -1,0 +1,15 @@
+{
+    "title": "Đăng Nhập",
+    "subTitle": "Chào mừng trở lại!!!",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "remember": "Ghi nhớ đăng nhập",
+    "login": "Đăng Nhập",
+    "forget": "Quên mật khẩu?",
+    "signup_question": "Không có tài khoản?",
+    "signup_link": "Đăng ký?",
+
+    "helper_email": "Định dạng email không hợp lệ 'ex: name@gmail.com'",
+    "helper_password": "Tối thiểu 8 ký tự",
+    "helper_empty": "Không được để trống!"
+}

@@ -1,0 +1,44 @@
+{
+    "helper_email": "Invalid email format 'ex: name@gmail.com'",
+    "helper_password": "Minimum 8 characters",
+    "helper_empty": "Should not be empty!",
+    "title": "SIGN UP",
+    "subTitle": "Registration is free and very simple",
+
+    "helper_phone_matches": "Number phone must number",
+    "helper_phone_max": "Maximum of number phone is 10 numbers",
+    "helper_phone_min": "Minimum of number phone is 10 numbers",
+    "helper_name": "Does not contain special characters",
+    "field_companyName": "Name Company",
+    "field_taxCode": "Tax Code",
+    "field_address": "Address",
+    "field_companyEmail": "Company Email",
+    "field_phone": "Phone",
+    "field_website": "Website",
+    "field_description": "Description",
+    "field_contactPerson": "Contact Person",
+    "field_expireTime": "Expire Time",
+    "field_maximumCustomer": "Maximum Customer",
+
+    "field_siteTitleEn": "Site Title (EN)",
+    "field_siteTitleVi": "Site Title (VI)",
+    "field_logoutUrl": "Logout Url",
+    "field_registerUrl": "Register Url",
+    
+    "field_password": "Password",
+    "field_fullName": "Full Name",
+    "field_email": "Email",
+    
+    "step01": "Information Company",
+    "step02": "Setting Platform",
+    "step03": "Create an account",
+    "step04": "Finish",
+    
+    "button_reset": "Reset",
+    "button_resetAll": "Reset All",
+    "button_next": "Next",
+    "button_back": "Back",
+    "button_finish": "Finish",
+
+    "finishMessage": "All steps completed - you're finished"
+}

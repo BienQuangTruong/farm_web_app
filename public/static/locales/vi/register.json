@@ -1,0 +1,44 @@
+{
+    "helper_email": "Định dạng email không hợp lệ 'vd: name@gmail.com'",
+    "helper_password": "Ít nhất 8 ký tự",
+    "helper_empty": "Không được để trống!",
+    "title": "ĐĂNG KÝ",
+    "subTitle": "Đăng ký miễn phí và đơn giản",
+
+    "helper_phone_matches": "Số điện thoại phải là số",
+    "helper_phone_max": "Tối đa số điện thoại là 10 số",
+    "helper_phone_min": "Tối thiểu điện thoại là 10 số",
+    "helper_name": "Không được chưa ký tự đặt biệt",
+    "field_companyName": "Tên công ty",
+    "field_taxCode": "Mã số thuế",
+    "field_address": "Đại chỉ",
+    "field_companyEmail": "Email công ty",
+    "field_phone": "Số điện thoại",
+    "field_website": "Website",
+    "field_description": "Mô tả",
+    "field_contactPerson": "Người liên hệ",
+    "field_expireTime": "Expire Time",
+    "field_maximumCustomer": "Khác hàng tối đa",
+
+    "field_siteTitleEn": "Tiêu đề site (EN)",
+    "field_siteTitleVi": "Tiêu đề site (VI)",
+    "field_logoutUrl": "Đường dẫn đăng xuất",
+    "field_registerUrl": "Đường dẫn đăng ký",
+    
+    "field_password": "Password",
+    "field_fullName": "Họ và Tên",
+    "field_email": "Email",
+    
+    "step01": "Thông tin công ty",
+    "step02": "Cài đặt Platform",
+    "step03": "Tạo tài khoản",
+    "step04": "Hoàn thành",
+    
+    "button_reset": "Xóa dữ liệu",
+    "button_resetAll": "Xóa tất cả dữ liệu",
+    "button_next": "Tiếp theo",
+    "button_back": "Trở về",
+    "button_finish": "Hoàn thành",
+
+    "finishMessage": "Các bước đã hoàn tất"
+}

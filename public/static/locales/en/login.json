@@ -1,0 +1,15 @@
+{
+    "title": "SIGN IN",
+    "subTitle": "Welcome to comeback!!!",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember me",
+    "login": "Login",
+    "forget": "Forget password?",
+    "signup_question": "Don't have an account?",
+    "signup_link": "Sign Up?",
+
+    "helper_email": "Invalid email format 'ex: name@gmail.com'",
+    "helper_password": "Minimum 8 characters",
+    "helper_empty": "Should not be empty!"
+}
