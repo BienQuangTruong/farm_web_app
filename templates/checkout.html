@@ -1,0 +1,83 @@
+{% extends 'base.html' %} 
+{% load static %} 
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+
+   <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+    </style>
+  
+ 
+    <div class="container">
+  <div class="py-5 text-center">
+    <img class="d-block mx-auto mb-4" src="data:image/png;base64,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" alt="" width="72" height="72">
+    <h2>Biểu mẫu thanh toán</h2>
+    <p class="lead">Vui lòng hoàn thành biểu mẫu dưới đây để tiến hành thanh toán đơn hàng của bạn.</p>
+  </div>
+
+  <div class="row">
+
+
+    <div class="col-md-8 order-md-1 card" >
+    	
+      <h4 class="mb-3" style=" margin-top: 26px;">Địa chỉ thanh toán</h4>
+      <form method="POST" class="needs-validation" novalidate>
+      	{% csrf_token %}
+        <div class="mb-3">
+          <label for="address">Địa chỉ nhà</label>
+          {{ form.address }}
+        </div>
+ 
+        <div class="mb-3">
+          <label for="full_name">Họ tên<span class="text-muted"></span></label>
+          {{ form.full_name }}
+        </div>
+
+        <div class="mb-3">
+          <label for="phone">Điện thoại<span class="text-muted"></span></label>
+          {{ form.phone }}
+        </div>
+        
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Tiếp tục thanh toán</button>
+      </form>
+    </div>
+
+    {% include "order_snippet.html" %}
+
+  </div>
+
+</div>
+{% endblock content %}
